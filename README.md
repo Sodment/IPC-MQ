@@ -1,14 +1,17 @@
-  # About
- 
- Simple IPC between client and server using message queues from MacOS. Project made for my uni classes and I havent catched a lot of errors so use at your own risk. Also remember to delete the message queue after use cuz im stupid and I havent done so in code.
+  # IPC-MQ
+Simple IPC between client and server using message queues from MacOS. It is a a crashing experiment of mine
  
  # Compilation
  
- use gcc 
+``` gcc server.c -o server ```
+
+``` gcc client.c -o client ```
  
  # Run
  
- standard teminal run ./nameoffile
+``` ./server ```
+
+``` ./client ```
  
  Run server first, then run as many clients as you want (only 2048 clients can be registered tho)
  
